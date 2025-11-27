@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+}
+
+#map {
+    height: 600px;
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+}
+
+.upload-section {
+    margin-bottom: 10px;
+}

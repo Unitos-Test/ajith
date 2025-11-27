@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Tile-based GIS Viewer</title>
+
+<!-- Leaflet CSS -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.4/leaflet.draw.css" />
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h2>Tile-based GIS Viewer</h2>
+
+<div class="upload-section">
+    <label>Upload Shapefile ZIP or GeoJSON:</label>
+    <input type="file" id="shpFile" accept=".zip,.geojson" multiple>
+</div>
+
+<div id="map"></div>
+
+<!-- Leaflet JS -->
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+<!-- Leaflet Draw JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.4/leaflet.draw.js"></script>
+
+<!-- Shapefile reader -->
+<script src="https://unpkg.com/shpjs@3.4.3/dist/shp.min.js"></script>
+
+<!-- Turf.js for measurements -->
+<script src="https://unpkg.com/@turf/turf/turf.min.js"></script>
+
+<!-- Custom script -->
+<script src="script.js"></script>
+</body>
+</html>
